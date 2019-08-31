@@ -35,7 +35,7 @@ namespace PorgramacionAplicada.Tarea1
             Console.WriteLine(" El promedio de edad= {0}",promedio);
 
             Console.WriteLine(" La edad mayor es= {0}", mayor);
-            Console.WriteLine(" La edad menor es= {0}", menor);
+            Console.WriteLine(" La edad menor es= {0}", menor); 
 
 
 
