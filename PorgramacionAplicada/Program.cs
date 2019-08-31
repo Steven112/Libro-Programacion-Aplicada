@@ -13,6 +13,7 @@ namespace PorgramacionAplicada.Tarea1
             Conversion_Monedad conv2 = new Conversion_Monedad();
             Area_Perimetro ap = new Area_Perimetro();
             PareImpares pares = new PareImpares();
+            DiasdeSemana ds = new DiasdeSemana();
 
 
             Console.WriteLine("Menu");
