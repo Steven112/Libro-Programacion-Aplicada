@@ -16,7 +16,7 @@ namespace PorgramacionAplicada.Tarea1
             potencia = Convert.ToDouble(Console.ReadLine());
 
             total = Math.Pow(num, potencia);
-            Console.WriteLine("Potencia de {0} elevado a {0}={0}", num, potencia, total);
+            Console.WriteLine("Potencia de {0} elevado a {1}={2}", num, potencia, total);
         }
     }
 }

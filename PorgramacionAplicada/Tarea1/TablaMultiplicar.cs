@@ -14,7 +14,7 @@ namespace PorgramacionAplicada.Tarea1
 
             for (i = 0; i <= 10; i++)
             {
-                Console.WriteLine("{0} X {0}={0}",n,i,(n*i));
+                Console.WriteLine("{0} X {1}={2}",n,i,(n*i));
             }
 
         }
