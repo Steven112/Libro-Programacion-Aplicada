@@ -16,6 +16,7 @@ namespace PorgramacionAplicada.Tarea1
             DiasdeSemana ds = new DiasdeSemana();
             Potencia pt = new Potencia();
             TablaMultiplicar tn = new TablaMultiplicar();
+            PromedioEstudiantes pe = new PromedioEstudiantes();
 
 
 
@@ -74,7 +75,7 @@ namespace PorgramacionAplicada.Tarea1
                         pt.elevar();
                         break;
                     case 10:
-
+                        pe.promedio();
                         break;
                     case 11:
                         Console.WriteLine("USTED SALIO");
