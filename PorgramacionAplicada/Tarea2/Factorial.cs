@@ -9,16 +9,19 @@ namespace PorgramacionAplicada.Tarea2
         public void factor()
         {
 
-            int n, i,factorial;
+            int n, i, factor = 1;
             Console.WriteLine(" Dijite el valor del numero");
             n = Convert.ToInt32(Console.ReadLine());
 
-            for (i = n; i=1 ; i--)
+            for (i = n; i >=1 ; i--)
             {
-                factorial=factorial*i
-                Console.WriteLine("Factorial de {0}={1}", n,factorial);
-            }
 
+                factor = factor * i;
+
+
+
+            }
+            Console.WriteLine("Factorial de {0}={1}",n, factor);
         }
     }
 }
