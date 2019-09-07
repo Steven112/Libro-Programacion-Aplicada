@@ -1,12 +1,15 @@
 ﻿using System;
+using System.Collections;
+using PorgramacionAplicada.Tarea2;
+namespace PorgramacionAplicada.Tarea1
 
-namespace PorgramacionAplicada.Tarea2
+
 {
     class Program
     {
         static void Main(string[] args)
         {
-            /* int opcion;
+             int opcion;
              Dialogo d = new Dialogo();
              Perimetro op = new Perimetro();
              ConversionGrados_Rad conv1 = new ConversionGrados_Rad();
@@ -17,10 +20,16 @@ namespace PorgramacionAplicada.Tarea2
              Potencia pt = new Potencia();
              TablaMultiplicar tn = new TablaMultiplicar();
              PromedioEstudiantes pe = new PromedioEstudiantes();
+            //Cap 5-8
+            Factorial factorial = new Factorial();
+            FuncionCadena funcion = new FuncionCadena();
+            PromedioJagged promedio = new PromedioJagged();
+            FechaHora tiempo = new FechaHora();
+            PromedioJaggedFunciones promediofuncio = new PromedioJaggedFunciones(); 
 
 
 
-             Console.WriteLine("Menu");
+            Console.WriteLine("Menu");
              Console.WriteLine("Capitulo 1");
              Console.WriteLine("1-Cree un proyecto nuevo que imprima su nombre en la ventana de la consola y Agregue más mensajes a la aplicación que ha creado.");
 
@@ -38,7 +47,18 @@ namespace PorgramacionAplicada.Tarea2
              Console.WriteLine("8-Hacer un programa que muestre la tabla de multiplicar del 1 al 10 de cualquier número.");
              Console.WriteLine("9-Hacer un programa que calcule el resultado de un número elevado a cualquier potencia.");
              Console.WriteLine("10-Hacer un programa que calcule el promedio de edad de un grupo de personas y diga cuál es la de edad más grande y cuál es la más joven");
-             do
+
+            Console.WriteLine("Capitulo 5");
+            Console.WriteLine("11-Hacer una función que calcule el factorial de un número.");
+            Console.WriteLine("12-Hacer una función que dado un número nos regrese una cadena donde se encuentre escrito en palabras.");
+
+            Console.WriteLine("Capitulo 6");
+            Console.WriteLine("13-Agregar el cálculo del promedio para el programa con arreglo jagged. 2 Agregar el cálculo de la menor calificación para el programa con arreglo ged.");
+            Console.WriteLine("13-Agregar el cálculo de la mayor calificación para el programa con arreglo jagged.");
+            Console.WriteLine("14-Modificar el programa de la escuela para que utilice funciones. 5 Crear un programa que pase un arreglo jagged como parámetro a una función");
+
+
+            do
              {
                  Console.WriteLine("Ingrese la opcion a elergir");
                  opcion = Convert.ToInt32(Console.ReadLine());
@@ -78,17 +98,38 @@ namespace PorgramacionAplicada.Tarea2
                          pe.promedio();
                          break;
                      case 11:
-                         Console.WriteLine("USTED SALIO");
+                        factorial.factor();
                          break;
+                     case 12:
+                        funcion.cadena();
+                        break;
+                    case 13:
+                        promedio.promedio();
+                        break;
+                    case 14:
+                        promediofuncio.promedio();
+                        break;
+                    case 15:
+                        break;
 
                      default:
                          Console.WriteLine("Opcion no valida");
                          break;
                  }
-             } while (opcion != 11);*/
+             } while (opcion != 15);
 
-            Factorial factorial = new Factorial();
-            factorial.factor();
+           
+            // funcion.cadena();
+
+            //factorial.factor();
+
+           
+
+            // promedio.promedio();
+
+          
+
+            tiempo.fechayhora();
             
 
 
