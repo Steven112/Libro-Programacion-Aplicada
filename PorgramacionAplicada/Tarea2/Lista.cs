@@ -15,6 +15,7 @@ namespace PorgramacionAplicada.Tarea2
 
             int cantidad, i, mayorCalificacion = 0,menorCalificacion=999999 ;
             int valorcalificaciones=0,acomulado =0;
+
             Console.WriteLine("Indique la cantidad de calificaciones");
             cantidad = Convert.ToInt32(Console.ReadLine());
 
